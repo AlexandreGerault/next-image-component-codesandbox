@@ -8,12 +8,14 @@
     "start": "next start"
   },
   "dependencies": {
+    "@emotion/babel-preset-css-prop": "^10.1.0",
+    "@emotion/core": "^10.1.1",
     "next": "10.0.0",
     "postcss": "^8.1.4",
+    "postcss-preset-env": "^6.7.0",
     "purgecss": "^3.0.0",
     "react": "17.0.1",
     "react-dom": "17.0.1",
-    "tailwindcss": "^1.9.6",
-    "postcss-preset-env": "^6.7.0"
+    "tailwindcss": "^1.9.6"
   }
 }
